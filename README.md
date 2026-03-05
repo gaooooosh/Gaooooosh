@@ -42,11 +42,6 @@ Community collaboration
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=gaooooosh&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&line_height=22&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
-
-<br>
-<br>
-
 <img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=fff&stroke=333&ring=333&fire=333&currStreakLabel=333&sideNums=333&sideLabels=333&dates=333&card_width=320" width="100%">
 
 <br>
@@ -64,27 +59,8 @@ Community collaboration
 
 ### THE WORKS
 
-<br>
-
-<a href="https://github.com/gaooooosh/REPO1">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=REPO1&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
-</a>
-
-<br>
-<br>
-
-<a href="https://github.com/gaooooosh/REPO2">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=REPO2&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
-</a>
-
-<br>
-<br>
 
 ### THE LANGUAGES
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaooooosh&layout=compact&hide_border=true&title_color=333&text_color=333&bg_color=fff&langs_count=8&card_width=320" width="100%">
 
 </td>
 </tr>
@@ -94,16 +70,6 @@ Community collaboration
 <br>
 
 ### THE CONTRIBUTIONS
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gaooooosh&bg_color=ffffff&color=333333&line=333333&point=333333&area=true&hide_border=true" width="100%">
-
-<br>
-<br>
-
-### THE K-LINE CHART
-
 <br>
 
 <picture>
