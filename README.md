@@ -3,7 +3,7 @@
 
 <table width="100%">
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="34%">
 
 ### THE BIOGRAPHY
 
@@ -13,27 +13,51 @@
 
 <br>
 
-I'm a developer passionate about building elegant solutions to complex problems.
+I'm gaooooosh, a developer passionate about building elegant solutions to complex problems.
 
 I believe in the power of simplicity and the beauty of well-crafted code.
 
-Currently focused on creating meaningful digital experiences.
+Currently focused on creating meaningful digital experiences that make a difference.
+
+<br>
+<br>
+
+### THE RESEARCH
+
+<br>
+
+① **System Design**
+Architecture patterns & scalability
+
+② **Developer Tools**
+Productivity & workflow optimization
+
+③ **Open Source**
+Community collaboration
 
 </td>
 <td valign="top" width="33%">
 
-### THE PRACTICE
+### THE STATS
 
 <br>
 
-① **Full-Stack Development**
-Building modern web applications with clean architecture
+<img src="https://github-readme-stats.vercel.app/api?username=gaooooosh&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&line_height=22&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
 
-② **Open Source**
-Contributing to the developer community
+<br>
+<br>
 
-③ **Continuous Learning**
-Always exploring new technologies and paradigms
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=fff&stroke=333&ring=333&fire=333&currStreakLabel=333&sideNums=333&sideLabels=333&dates=333&card_width=320" width="100%">
+
+<br>
+<br>
+
+### THE ACTIVITY
+
+<br>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 </td>
 <td valign="top" width="33%">
@@ -42,17 +66,34 @@ Always exploring new technologies and paradigms
 
 <br>
 
-**2024 – Present**
-Personal Projects
-Building tools that matter
+<a href="https://github.com/gaooooosh/REPO1">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=REPO1&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
+</a>
 
-**2023 – 2024**
-Learning & Growing
-Mastering new stacks
+<br>
+<br>
+
+<a href="https://github.com/gaooooosh/REPO2">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=REPO2&hide_border=true&title_color=333&text_color=333&icon_color=333&bg_color=fff" width="100%">
+</a>
+
+<br>
+<br>
+
+### THE LANGUAGES
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaooooosh&layout=compact&hide_border=true&title_color=333&text_color=333&bg_color=fff&langs_count=8&card_width=320" width="100%">
 
 </td>
 </tr>
 </table>
+
+<br>
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gaooooosh&bg_color=ffffff&color=333333&line=333333&point=333333&area=true&hide_border=true" width="100%">
 
 <br>
 <br>
@@ -63,6 +104,8 @@ Mastering new stacks
 
 **Follow my journey**
 
+<br>
+
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
 <a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-181717?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
 <a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-181717?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -71,6 +114,8 @@ Mastering new stacks
 <td align="right" valign="top" width="50%">
 
 **Get in touch**
+
+<br>
 
 <a href="mailto:your@email.com">your@email.com</a>
 
