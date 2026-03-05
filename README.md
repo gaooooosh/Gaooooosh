@@ -107,9 +107,9 @@ Community collaboration
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=1" />
-  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=1" />
-  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=1" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" />
+  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" width="100%" />
 </picture>
 
 <br>
