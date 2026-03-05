@@ -93,7 +93,26 @@ Community collaboration
 <br>
 <br>
 
+### THE CONTRIBUTIONS
+
+<br>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=gaooooosh&bg_color=ffffff&color=333333&line=333333&point=333333&area=true&hide_border=true" width="100%">
+
+<br>
+<br>
+
+### THE STAR HISTORY
+
+<br>
+
+<a href="https://www.star-history.com/#gaooooosh/REPO1&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date" width="100%" />
+ </picture>
+</a>
 
 <br>
 <br>
