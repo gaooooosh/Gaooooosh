@@ -102,6 +102,15 @@ Community collaboration
 <br>
 <br>
 
+### THE K-LINE CHART
+
+<br>
+
+<img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" width="100%">
+
+<br>
+<br>
+
 ### THE STAR HISTORY
 
 <br>

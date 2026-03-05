@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/kline",
+      "destination": "/api/kline"
+    }
+  ]
+}
