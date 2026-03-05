@@ -1,46 +1,79 @@
-<div align="center">
-
-<br>
-
-# gaooooosh
-
-<br>
-
-**developer**
-
-<br>
-
-<sup>
-<a href="mailto:your@email.com">Email</a> · <a href="https://twitter.com/yourname">Twitter</a> · <a href="https://your.blog">Blog</a>
-</sup>
-
-<br>
-<br>
 <br>
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=gaooooosh&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=000000&text_color=000000&icon_color=000000&bg_color=ffffff&hide_title=true&line_height=28" width="440">
+<table width="100%">
+<tr>
+<td valign="top" width="33%">
+
+### THE BIOGRAPHY
+
+<br>
+
+**Hi, hello.**
+
+<br>
+
+I'm a developer passionate about building elegant solutions to complex problems.
+
+I believe in the power of simplicity and the beauty of well-crafted code.
+
+Currently focused on creating meaningful digital experiences.
+
+</td>
+<td valign="top" width="33%">
+
+### THE PRACTICE
+
+<br>
+
+① **Full-Stack Development**
+Building modern web applications with clean architecture
+
+② **Open Source**
+Contributing to the developer community
+
+③ **Continuous Learning**
+Always exploring new technologies and paradigms
+
+</td>
+<td valign="top" width="33%">
+
+### THE WORKS
+
+<br>
+
+**2024 – Present**
+Personal Projects
+Building tools that matter
+
+**2023 – 2024**
+Learning & Growing
+Mastering new stacks
+
+</td>
+</tr>
+</table>
 
 <br>
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaooooosh&layout=compact&hide_border=true&title_color=000000&text_color=000000&bg_color=ffffff&hide_title=true&langs_count=6&card_width=440" width="440">
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
 
-<br>
-<br>
-<br>
+**Follow my journey**
 
-<a href="https://github.com/gaooooosh/repo1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=repo1&hide_border=true&title_color=000000&text_color=000000&icon_color=000000&bg_color=ffffff" width="215"></a>
-<a href="https://github.com/gaooooosh/repo2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gaooooosh&repo=repo2&hide_border=true&title_color=000000&text_color=000000&icon_color=000000&bg_color=ffffff" width="215"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-181717?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-181717?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
-<br>
-<br>
-<br>
+</td>
+<td align="right" valign="top" width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=ffffff&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&card_width=440" width="440">
+**Get in touch**
 
-<br>
-<br>
-<br>
+<a href="mailto:your@email.com">your@email.com</a>
 
-</div>
+</td>
+</tr>
+</table>
