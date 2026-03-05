@@ -106,7 +106,11 @@ Community collaboration
 
 <br>
 
-<img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" />
+  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" width="100%" />
+</picture>
 
 <br>
 <br>
