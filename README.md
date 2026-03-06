@@ -40,8 +40,8 @@
 <br>
 
 <p align="center">
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-333333?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-333333?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-333333?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
+<a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
+<a href="https://linkedin.com/in/yourname"><img src="./assets/badges/linkedin.svg" alt="LinkedIn"></a>
+<a href="mailto:your@email.com"><img src="./assets/badges/email.svg" alt="Email"></a>
 </p>
