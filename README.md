@@ -24,7 +24,7 @@ Beijing University of Posts and Telecommunications<br></p>
 
 <p>Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
 
-<p>
+<p align="center">
 <img src="https://img.shields.io/badge/Long--Context-3498DB?style=flat-square" alt="Long-Context">
 <img src="https://img.shields.io/badge/Linear%20Attention-27AE60?style=flat-square" alt="Linear Attention">
 <img src="https://img.shields.io/badge/Efficient%20Transformers-9B59B6?style=flat-square" alt="Efficient Transformers">
