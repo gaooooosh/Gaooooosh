@@ -20,9 +20,9 @@ Beijing University of Posts and Telecommunications<br></p>
 
 <p><strong>🔬 Research Focus</strong></p>
 
-<p align="justify">Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
+<p style="text-align: justify; text-align-last: left;">Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
 
-<p align="justify">Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
+<p style="text-align: justify; text-align-last: left;">Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Long--Context-3498DB?style=flat-square" alt="Long-Context">
