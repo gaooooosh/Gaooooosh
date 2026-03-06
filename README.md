@@ -4,26 +4,38 @@
 <tr>
 <td valign="top" width="50%" style="padding-right: 32px;">
 
-<h2>ABOUT</h2>
+<h2>👋 ABOUT</h2>
 
-<h3><strong>**Gaooooosh**</strong></h3>
+<p><strong style="font-size: 1.2em;">Gaooooosh</strong></p>
 
-<p>Ph.D. Student @ Beijing University of Posts and Telecommunications<br></p>
+<p>🎓 Ph.D. Student<br>
+Beijing University of Posts and Telecommunications<br>
+📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
 
-<h3><strong>Research Focus</strong></h3>
+<hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
-<p>Research focuses on efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>. Current work studies sequence-length-wise hybridization of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through training-free, parameter-preserving inference-time modification.</p>
+<p><strong>🔬 Research Focus</strong></p>
 
-<code>Long-Context</code> <code>Linear Attention</code> <code>Efficient Transformers</code>
+<p>Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
+
+<p>Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
+
+<p>
+<img src="https://img.shields.io/badge/Long--Context-3498DB?style=flat-square" alt="Long-Context">
+<img src="https://img.shields.io/badge/Linear%20Attention-27AE60?style=flat-square" alt="Linear Attention">
+<img src="https://img.shields.io/badge/Efficient%20Transformers-9B59B6?style=flat-square" alt="Efficient Transformers">
+</p>
 
 </td>
 <td valign="top" width="50%">
 
-<h2>STATS</h2>
+<h2>📊 STATS</h2>
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=380" width="100%">
 
-<p><strong>CONTRIBUTIONS</strong></p>
+<hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
+
+<p><strong>📈 CONTRIBUTIONS</strong></p>
 
 <p align="center">
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-5-3498DB?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
@@ -40,6 +52,8 @@
 </td>
 </tr>
 </table>
+
+<br>
 
 <p align="center">
 <a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
