@@ -1,0 +1,63 @@
+name: Update Contribution Stats
+
+on:
+  schedule:
+    # 每天 UTC 0:00 运行（北京时间 8:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 手动触发
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch contribution stats
+        id: fetch-stats
+        run: |
+          # 从 stats API 获取数据
+          STATS=$(curl -s "https://kline-service.vercel.app/api/stats?user=gaooooosh&days=90")
+
+          # 提取数据
+          TODAY=$(echo $STATS | jq -r '.today')
+          YESTERDAY=$(echo $STATS | jq -r '.yesterday')
+          MONTH_AVG=$(echo $STATS | jq -r '.month.average')
+
+          # 保存到环境变量
+          echo "today=$TODAY" >> $GITHUB_OUTPUT
+          echo "yesterday=$YESTERDAY" >> $GITHUB_OUTPUT
+          echo "month_avg=$MONTH_AVG" >> $GITHUB_OUTPUT
+
+          echo "📊 Stats fetched:"
+          echo "  Today: $TODAY"
+          echo "  Yesterday: $YESTERDAY"
+          echo "  Month Average: $MONTH_AVG"
+
+      - name: Update README
+        run: |
+          # 获取数据
+          TODAY=${{ steps.fetch-stats.outputs.today }}
+          YESTERDAY=${{ steps.fetch-stats.outputs.yesterday }}
+          MONTH_AVG=${{ steps.fetch-stats.outputs.month_avg }}
+
+          # 更新 README 中的徽章数据
+          sed -i "s|今日-[0-9]*|今日-$TODAY|g" README.md
+          sed -i "s|昨日-[0-9]*|昨日-$YESTERDAY|g" README.md
+          sed -i "s|本月平均-[0-9.]*|本月平均-$MONTH_AVG|g" README.md
+
+          echo "✅ README updated"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: 更新贡献统计数据"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

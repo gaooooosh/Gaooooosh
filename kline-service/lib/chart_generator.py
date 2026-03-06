@@ -18,39 +18,42 @@ import numpy as np
 THEMES = {
     "light": {
         "bg": "#FFFFFF",
-        "panel_bg": "#FAFAFA",
+        "panel_bg": "#FAFBFC",
         "text": "#1A1A1A",
         "text_light": "#666666",
-        "grid": "#E5E5E5",
-        "up_body": "#DC2626",
-        "down_body": "#059669",
-        "up_alpha": 0.3,
-        "down_alpha": 0.3,
-        "ma5": "#EF4444",
-        "ma10": "#F59E0B",
-        "ma20": "#10B981",
-        "vol_up": "#DC2626",
-        "vol_down": "#059669",
-        "border": "#DDDDDD",
-        "axis_line": "#CCCCCC"
+        "grid": "#F0F0F0",
+        # 更鲜艳的红绿配色 - 活泼现代
+        "up_body": "#FF6B6B",
+        "down_body": "#51CF66",
+        "up_alpha": 0.75,
+        "down_alpha": 0.75,
+        # 更鲜明的均线颜色
+        "ma5": "#FF4757",
+        "ma10": "#FFA502",
+        "ma20": "#2ED573",
+        "vol_up": "#FF6B6B",
+        "vol_down": "#51CF66",
+        "border": "#E8E8E8",
+        "axis_line": "#E0E0E0"
     },
     "dark": {
-        "bg": "#131722",
-        "panel_bg": "#1E222D",
-        "text": "#D1D4DC",
-        "text_light": "#8B949E",
-        "grid": "#2A2E39",
-        "up_body": "#EF4444",
-        "down_body": "#10B981",
-        "up_alpha": 0.3,
-        "down_alpha": 0.3,
-        "ma5": "#F87171",
-        "ma10": "#FBBF24",
-        "ma20": "#34D399",
-        "vol_up": "#EF4444",
-        "vol_down": "#10B981",
-        "border": "#363A45",
-        "axis_line": "#363A45"
+        "bg": "#0F1115",
+        "panel_bg": "#1A1D24",
+        "text": "#E8EAED",
+        "text_light": "#9AA0A6",
+        "grid": "#2C2F36",
+        # 暗色模式下更鲜艳的颜色
+        "up_body": "#FF6B9D",
+        "down_body": "#4ADE80",
+        "up_alpha": 0.75,
+        "down_alpha": 0.75,
+        "ma5": "#FF6B9D",
+        "ma10": "#FFD93D",
+        "ma20": "#4ADE80",
+        "vol_up": "#FF6B9D",
+        "vol_down": "#4ADE80",
+        "border": "#2C2F36",
+        "axis_line": "#2C2F36"
     }
 }
 
@@ -101,21 +104,30 @@ def generate_kline_chart(
     dates = [datetime.strptime(d["date"], "%Y-%m-%d") for d in ohlc_data]
     bar_width = max(0.4, min(0.8, 20 / n))
 
-    # 绘制 K 线
+    # 绘制 K 线 - 现代化设计，增加边框和阴影效果
     for i, item in enumerate(ohlc_data):
         is_up = item["close"] >= item["open"]
         body_fill = colors["up_body"] if is_up else colors["down_body"]
         alpha = colors["up_alpha"] if is_up else colors["down_alpha"]
+        edge_color = colors["up_body"] if is_up else colors["down_body"]
 
         body_bottom = min(item["open"], item["close"])
         body_height = max(abs(item["close"] - item["open"]), 0.08)
 
+        # K线主体 - 增加边框使线条更清晰
         rect = Rectangle(
             (i - bar_width / 2, body_bottom),
             bar_width, body_height,
-            facecolor=body_fill, edgecolor='none', alpha=alpha, zorder=2
+            facecolor=body_fill, edgecolor=edge_color,
+            alpha=alpha, linewidth=1.2, zorder=2
         )
         ax_main.add_patch(rect)
+
+        # 绘制影线（误差线风格 - 细线）
+        high = item.get("high", max(item["open"], item["close"]))
+        low = item.get("low", min(item["open"], item["close"]))
+        ax_main.plot([i, i], [low, body_bottom], color=edge_color, linewidth=0.8, alpha=0.6, zorder=1)
+        ax_main.plot([i, i], [body_bottom + body_height, high], color=edge_color, linewidth=0.8, alpha=0.6, zorder=1)
 
     # 绘制均线
     ma_configs = [
@@ -131,10 +143,10 @@ def generate_kline_chart(
             ax_main.plot(valid_x, valid_y, color=color, linewidth=lw,
                         label=label, alpha=0.95, zorder=10)
 
-    # 绘制成交量
+    # 绘制成交量 - 现代化设计
     max_vol = 1
     if ax_vol:
-        vol_width = bar_width * 0.8
+        vol_width = bar_width * 0.85
         for i, item in enumerate(ohlc_data):
             vol = item.get("center_count", 0)
             if vol == 0:
@@ -144,9 +156,11 @@ def generate_kline_chart(
             is_up = item["close"] >= item["open"]
             vol_color = colors["vol_up"] if is_up else colors["vol_down"]
 
+            # 成交量柱状图 - 增加边框效果
             rect = Rectangle(
                 (i - vol_width / 2, 0), vol_width, max(vol, 0.1),
-                facecolor=vol_color, edgecolor='none', alpha=0.6, zorder=1
+                facecolor=vol_color, edgecolor=vol_color,
+                alpha=0.65, linewidth=1.0, zorder=1
             )
             ax_vol.add_patch(rect)
 
@@ -173,9 +187,9 @@ def generate_kline_chart(
 
     ax_main.yaxis.tick_right()
     ax_main.yaxis.set_label_position("right")
-    ax_main.tick_params(axis='y', labelsize=9, colors=colors["text_light"])
+    ax_main.tick_params(axis='y', labelsize=10, colors=colors["text_light"])
 
-    ax_main.grid(True, axis='y', color=colors["grid"], linestyle='-', linewidth=0.8, alpha=0.9)
+    ax_main.grid(True, axis='y', color=colors["grid"], linestyle='-', linewidth=0.6, alpha=0.6)
     ax_main.set_axisbelow(True)
 
     for spine in ['top', 'left']:
@@ -191,73 +205,47 @@ def generate_kline_chart(
         # 日期格式优化：只显示月-日，旋转30度避免重叠
         ax_vol.set_xticklabels(
             [dates[i].strftime("%m-%d") for i in tick_positions],
-            fontsize=8, color=colors["text_light"], rotation=30, ha='right'
+            fontsize=9, color=colors["text_light"], rotation=30, ha='right'
         )
         ax_vol.yaxis.tick_right()
-        ax_vol.tick_params(axis='y', labelsize=8, colors=colors["text_light"])
+        ax_vol.tick_params(axis='y', labelsize=9, colors=colors["text_light"])
 
         for spine in ['top', 'left', 'right']:
             ax_vol.spines[spine].set_visible(False)
         ax_vol.spines['bottom'].set_color(colors["axis_line"])
-        ax_vol.grid(True, axis='y', color=colors["grid"], linestyle='--', linewidth=0.5, alpha=0.6)
+        ax_vol.grid(True, axis='y', color=colors["grid"], linestyle='-', linewidth=0.5, alpha=0.5)
 
-    # ========== 左上角信息面板 ==========
-    # 计算所需数据
-    today = datetime.now().date()
-
-    # 昨日收盘价（昨天的 close 值）
-    yesterday_close = ohlc_data[-1]["close"] if ohlc_data else 0
-
-    # 本月均价（本月数据的平均 close）
-    current_month = today.month
-    current_year = today.year
-    month_data = [d for d in ohlc_data
-                  if datetime.strptime(d["date"], "%Y-%m-%d").month == current_month
-                  and datetime.strptime(d["date"], "%Y-%m-%d").year == current_year]
-    month_avg = sum(d["close"] for d in month_data) / len(month_data) if month_data else 0
-
-    # 现价（今日的 center_count 或 close）
-    current_price = ohlc_data[-1].get("center_count", ohlc_data[-1]["close"]) if ohlc_data else 0
-
-    # 涨跌计算
-    if len(ohlc_data) >= 2:
-        prev_close = ohlc_data[-2]["close"]
-        change = current_price - prev_close
-        change_pct = (change / prev_close * 100) if prev_close > 0 else 0
-    else:
-        change = 0
-        change_pct = 0
-
-    change_color = colors["up_body"] if change >= 0 else colors["down_body"]
-    sign = "+" if change >= 0 else ""
-
-    # 左上角信息框
-    info_lines = [
-        f"Prev Close: {yesterday_close:.1f}",
-        f"Month Avg: {month_avg:.1f}",
-        f"Current: {current_price:.1f} ({sign}{change_pct:.1f}%)"
-    ]
-
-    info_text = "\n".join(info_lines)
-    ax_main.text(0.02, 0.96, info_text, transform=ax_main.transAxes, fontsize=9,
-                 color=colors["text"], ha='left', va='top', fontweight='400',
-                 linespacing=1.6,
-                 bbox=dict(boxstyle='round,pad=0.5', facecolor=colors["panel_bg"],
-                           edgecolor=colors["border"], alpha=0.95))
-
-    # 右上角图例
+    # ========== 右上角图例 - 现代横向卡片设计 ==========
     if n >= 5:
+        # 使用圆点标记 + 横向布局
         legend_elements = [
-            Line2D([0], [0], color=colors["ma5"], linewidth=2.5, label='MA5'),
-            Line2D([0], [0], color=colors["ma10"], linewidth=2.2, label='MA10'),
-            Line2D([0], [0], color=colors["ma20"], linewidth=1.8, label='MA20'),
+            Line2D([0], [0], marker='o', color='w', markerfacecolor=colors["ma5"],
+                   markersize=8, label='MA5', linewidth=0),
+            Line2D([0], [0], marker='o', color='w', markerfacecolor=colors["ma10"],
+                   markersize=8, label='MA10', linewidth=0),
+            Line2D([0], [0], marker='o', color='w', markerfacecolor=colors["ma20"],
+                   markersize=8, label='MA20', linewidth=0),
         ]
-        legend = ax_main.legend(handles=legend_elements, loc='upper right', frameon=True,
-                                fontsize=9, fancybox=False, edgecolor=colors["border"],
-                                framealpha=0.95, handlelength=1.5, borderpad=0.5)
+
+        # 横向布局，圆角背景
+        legend = ax_main.legend(handles=legend_elements, loc='upper right',
+                                frameon=True, fancybox=True, shadow=False,
+                                fontsize=10, ncol=3,  # 横向排列
+                                handlelength=0.5, borderpad=0.6,
+                                labelspacing=0.8, handletextpad=0.5,
+                                columnspacing=1.5)
+
+        # 设置背景样式
         legend.get_frame().set_facecolor(colors["panel_bg"])
+        legend.get_frame().set_alpha(0.95)
+        legend.get_frame().set_linewidth(0)
+        legend.get_frame().set_edgecolor('none')
+
+        # 设置文字样式
         for text in legend.get_texts():
             text.set_color(colors["text"])
+            text.set_fontweight('600')
+            text.set_fontsize(9)
 
     plt.tight_layout(pad=0.5)
 
@@ -294,15 +282,17 @@ def generate_compact_kline(
         is_up = item["close"] >= item["open"]
         body_fill = colors["up_body"] if is_up else colors["down_body"]
         alpha = colors["up_alpha"] if is_up else colors["down_alpha"]
+        edge_color = colors["up_body"] if is_up else colors["down_body"]
 
         body_bottom = min(item["open"], item["close"])
         body_height = max(abs(item["close"] - item["open"]), 0.08)
 
         rect = Rectangle((i - bar_width / 2, body_bottom), bar_width, body_height,
-                          facecolor=body_fill, edgecolor='none', alpha=alpha, zorder=2)
+                          facecolor=body_fill, edgecolor=edge_color,
+                          alpha=alpha, linewidth=1.2, zorder=2)
         ax.add_patch(rect)
 
-    for period, color, lw in [(5, colors["ma5"], 2.0), (10, colors["ma10"], 1.6)]:
+    for period, color, lw in [(5, colors["ma5"], 2.5), (10, colors["ma10"], 2.2)]:
         if n >= period:
             ma = calculate_ma(ohlc_data, period)
             valid_x = [i for i, v in enumerate(ma) if v is not None]
@@ -318,11 +308,11 @@ def generate_compact_kline(
     tick_pos = list(range(0, n, tick_step))
     ax.set_xticks(tick_pos)
     ax.set_xticklabels([dates[i].strftime("%m/%d") for i in tick_pos],
-                       fontsize=8, color=colors["text_light"], rotation=30, ha='right')
+                       fontsize=9, color=colors["text_light"], rotation=30, ha='right')
 
     ax.yaxis.tick_right()
-    ax.tick_params(axis='y', labelsize=8, colors=colors["text_light"])
-    ax.grid(True, axis='y', color=colors["grid"], linewidth=0.6, alpha=0.8)
+    ax.tick_params(axis='y', labelsize=9, colors=colors["text_light"])
+    ax.grid(True, axis='y', color=colors["grid"], linewidth=0.6, alpha=0.6)
 
     for spine in ['top', 'left']:
         ax.spines[spine].set_visible(False)

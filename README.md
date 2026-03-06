@@ -23,10 +23,16 @@
 
 <p><strong>CONTRIBUTIONS</strong></p>
 
+<p>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-5-blue?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-12-green?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/本月平均-5.3-yellow?style=flat-square&logo=github&logoColor=white" alt="本月平均"></a>
+</p>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
-  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" />
-  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" />
+  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light" width="100%" />
 </picture>
 
 </td>
