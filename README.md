@@ -6,12 +6,10 @@
 
 <h2>👋 ABOUT</h2>
 
-<p><strong style="font-size: 1.2em;">Gaooooosh</strong></p>
+<h3><strong style="font-size: 1.2em;">Gaooooosh</strong></h3><p> 📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
 
-<p>🎓 Ph.D. Student<br>
+<p>🎓 Ph.D. Student <br>
 Beijing University of Posts and Telecommunications<br></p>
-<p align="center">📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
-
 <p align="center">
 <a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
 <a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
