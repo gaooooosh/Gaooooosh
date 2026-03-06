@@ -11,6 +11,10 @@
 <p>Ph.D. Student @ Beijing University of Posts and Telecommunications<br>
 北京邮电大学 · 2026级</p>
 
+<p><strong>Research Focus</strong></p>
+
+<p>Research focuses on efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>. Current work studies sequence-length-wise hybridization of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through training-free, parameter-preserving inference-time modification.</p>
+
 <p><strong>Research Interests</strong><br>
 <code>LLM</code> <code>Long-Context</code> <code>Linear Attention</code> <code>Efficient Transformers</code></p>
 
