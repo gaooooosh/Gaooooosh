@@ -9,8 +9,14 @@
 <p><strong style="font-size: 1.2em;">Gaooooosh</strong></p>
 
 <p>🎓 Ph.D. Student<br>
-Beijing University of Posts and Telecommunications<br>
-📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
+Beijing University of Posts and Telecommunications<br></p>
+<p align="center">📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
+
+<p align="center">
+<a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
+<a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
+<a href="https://linkedin.com/in/yourname"><img src="./assets/badges/linkedin.svg" alt="LinkedIn"></a>
+</p>
 
 <hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
@@ -54,10 +60,3 @@ Beijing University of Posts and Telecommunications<br>
 </table>
 
 <br>
-
-<p align="center">
-<a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
-<a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
-<a href="https://linkedin.com/in/yourname"><img src="./assets/badges/linkedin.svg" alt="LinkedIn"></a>
-<a href="mailto:yonggaoxiao@bupt.edu.cn"><img src="./assets/badges/email.svg" alt="Email"></a>
-</p>
