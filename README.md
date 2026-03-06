@@ -6,7 +6,7 @@
 
 <h2>👋 ABOUT</h2>
 
-<h3><strong style="font-size: 1.2em;">Gaooooosh</strong></h3><p> 📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></p>
+<h3><strong style="font-size: 1.2em;">Gaooooosh</strong>📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></h3><p> </p>
 
 <p>🎓 Ph.D. Student <br>
 Beijing University of Posts and Telecommunications<br></p>
