@@ -4,42 +4,36 @@
 <tr>
 <td valign="top" width="55%" style="padding-right: 40px;">
 
-## THE BIOGRAPHY / 简介
+## ABOUT
 
 **Hi, hello.**
 
-我是 **gaooooosh**，一名专注于构建优雅解决方案的开发者。
-
-I'm a developer passionate about building elegant solutions to complex problems.
+我是 **gaooooosh**。
 
 <br>
 
-### THE RESEARCH / 研究方向
+**Interests**
 
-**Natural Language Processing** — 自然语言处理
-
-Long-Context Understanding · Linear Attention · Efficient Transformers
-
-长上下文理解 · 线性注意力 · 高效 Transformer
+`LLM` `Long-Context` `Linear Attention` `Efficient Transformers`
 
 <br>
 
-### THE AFFILIATION / 所属机构
+**Education**
 
-**Beijing University of Posts and Telecommunications** / 北京邮电大学
+Beijing University of Posts and Telecommunications · Ph.D. 2026
 
-Ph.D. Student, Class of 2026 / 2026级博士生
+北京邮电大学
 
 </td>
 <td valign="top" width="45%">
 
-### THE STATS / 统计
+### STATS
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=DDDDDD&ring=333333&fire=333333&currStreakLabel=333333&sideNums=666666&sideLabels=666666&dates=666666&card_width=400" width="100%">
 
 <br>
 
-### THE CONTRIBUTIONS / 贡献
+### CONTRIBUTIONS
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
@@ -62,7 +56,7 @@ Ph.D. Student, Class of 2026 / 2026级博士生
 <tr>
 <td valign="top" width="50%">
 
-**Follow my journey / 关注动态**
+**Find me**
 
 <br>
 
@@ -73,7 +67,7 @@ Ph.D. Student, Class of 2026 / 2026级博士生
 </td>
 <td align="right" valign="top" width="50%">
 
-**Get in touch / 联系方式**
+**Contact**
 
 <br>
 
