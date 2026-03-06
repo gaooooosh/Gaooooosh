@@ -45,5 +45,5 @@
 <a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
 <a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
 <a href="https://linkedin.com/in/yourname"><img src="./assets/badges/linkedin.svg" alt="LinkedIn"></a>
-<a href="mailto:your@email.com"><img src="./assets/badges/email.svg" alt="Email"></a>
+<a href="mailto:yonggaoxiao@bupt.edu.cn"><img src="./assets/badges/email.svg" alt="Email"></a>
 </p>
