@@ -4,36 +4,42 @@
 <tr>
 <td valign="top" width="55%" style="padding-right: 40px;">
 
-## THE BIOGRAPHY
+## THE BIOGRAPHY / 简介
 
 **Hi, hello.**
 
-I'm **gaooooosh**, a developer passionate about building elegant solutions to complex problems.
+我是 **gaooooosh**，一名专注于构建优雅解决方案的开发者。
 
-I believe in the power of simplicity and the beauty of well-crafted code.
-
-Currently focused on creating meaningful digital experiences that make a difference.
+I'm a developer passionate about building elegant solutions to complex problems.
 
 <br>
 
-### THE RESEARCH
+### THE RESEARCH / 研究方向
 
-**System Design** — Architecture patterns & scalability
+**Natural Language Processing** — 自然语言处理
 
-**Developer Tools** — Productivity & workflow optimization
+Long-Context Understanding · Linear Attention · Efficient Transformers
 
-**Open Source** — Community collaboration
+长上下文理解 · 线性注意力 · 高效 Transformer
+
+<br>
+
+### THE AFFILIATION / 所属机构
+
+**Beijing University of Posts and Telecommunications** / 北京邮电大学
+
+Ph.D. Student, Class of 2026 / 2026级博士生
 
 </td>
 <td valign="top" width="45%">
 
-### THE STATS
+### THE STATS / 统计
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=DDDDDD&ring=333333&fire=333333&currStreakLabel=333333&sideNums=666666&sideLabels=666666&dates=666666&card_width=400" width="100%">
 
 <br>
 
-### THE CONTRIBUTIONS
+### THE CONTRIBUTIONS / 贡献
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
@@ -56,7 +62,7 @@ Currently focused on creating meaningful digital experiences that make a differe
 <tr>
 <td valign="top" width="50%">
 
-**Follow my journey**
+**Follow my journey / 关注动态**
 
 <br>
 
@@ -67,7 +73,7 @@ Currently focused on creating meaningful digital experiences that make a differe
 </td>
 <td align="right" valign="top" width="50%">
 
-**Get in touch**
+**Get in touch / 联系方式**
 
 <br>
 
