@@ -1,66 +1,45 @@
 <br>
-<br>
 
-<table width="100%">
+<table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td valign="top" width="34%">
+<td valign="top" width="55%" style="padding-right: 40px;">
 
-### THE BIOGRAPHY
-
-<br>
+## THE BIOGRAPHY
 
 **Hi, hello.**
 
-<br>
-
-I'm gaooooosh, a developer passionate about building elegant solutions to complex problems.
+I'm **gaooooosh**, a developer passionate about building elegant solutions to complex problems.
 
 I believe in the power of simplicity and the beauty of well-crafted code.
 
 Currently focused on creating meaningful digital experiences that make a difference.
 
 <br>
-<br>
 
 ### THE RESEARCH
 
-<br>
+**System Design** — Architecture patterns & scalability
 
-① **System Design**
-Architecture patterns & scalability
+**Developer Tools** — Productivity & workflow optimization
 
-② **Developer Tools**
-Productivity & workflow optimization
-
-③ **Open Source**
-Community collaboration
+**Open Source** — Community collaboration
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="45%">
 
 ### THE STATS
 
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=fff&stroke=333&ring=333&fire=333&currStreakLabel=333&sideNums=333&sideLabels=333&dates=333&card_width=320" width="100%">
-
-<br>
-<br>
-
-### THE ACTIVITY
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=DDDDDD&ring=333333&fire=333333&currStreakLabel=333333&sideNums=666666&sideLabels=666666&dates=666666&card_width=400" width="100%">
 
 <br>
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+### THE CONTRIBUTIONS
 
-</td>
-<td valign="top" width="33%">
-
-### THE WORKS
-
-
-### THE LANGUAGES
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" />
+  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" width="100%" />
+</picture>
 
 </td>
 </tr>
@@ -69,34 +48,11 @@ Community collaboration
 <br>
 <br>
 
-### THE CONTRIBUTIONS
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
-  <source media="(prefers-color-scheme: light)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" />
-  <img src="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=light&v=3" width="100%" />
-</picture>
-
-<br>
-<br>
-
-### THE STAR HISTORY
+---
 
 <br>
 
-<a href="https://www.star-history.com/#gaooooosh/REPO1&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=gaooooosh/REPO1&type=Date" width="100%" />
- </picture>
-</a>
-
-<br>
-<br>
-
-<table width="100%">
+<table width="100%" cellpadding="0" cellspacing="0">
 <tr>
 <td valign="top" width="50%">
 
@@ -104,9 +60,9 @@ Community collaboration
 
 <br>
 
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-181717?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-181717?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-333333?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-333333?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-333333?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </td>
 <td align="right" valign="top" width="50%">
