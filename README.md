@@ -2,30 +2,26 @@
 
 <table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td valign="top" width="55%" style="padding-right: 40px;">
+<td valign="top" width="50%" style="padding-right: 32px;">
 
-## ABOUT
+<h2>ABOUT</h2>
 
-**gaooooosh**
+<p><strong>gaooooosh</strong></p>
 
-Ph.D. Student @ Beijing University of Posts and Telecommunications
+<p>Ph.D. Student @ Beijing University of Posts and Telecommunications<br>
+北京邮电大学 · 2026级</p>
 
-北京邮电大学 · 2026级
-
-<br>
-
-**Research Interests**
-
-`LLM` `Long-Context` `Linear Attention` `Efficient Transformers`
+<p><strong>Research Interests</strong><br>
+<code>LLM</code> <code>Long-Context</code> <code>Linear Attention</code> <code>Efficient Transformers</code></p>
 
 </td>
-<td valign="top" width="45%">
+<td valign="top" width="50%">
 
-### STATS & CONTRIBUTIONS
+<h2>STATS</h2>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=DDDDDD&ring=333333&fire=333333&currStreakLabel=333333&sideNums=666666&sideLabels=666666&dates=666666&card_width=400" width="100%">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=380" width="100%">
 
-<br>
+<p><strong>CONTRIBUTIONS</strong></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://kline-service.vercel.app/api/kline?user=gaooooosh&days=90&theme=dark&v=3" />
@@ -39,11 +35,13 @@ Ph.D. Student @ Beijing University of Posts and Telecommunications
 
 <br>
 
----
+<hr>
 
 <br>
 
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-333333?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-333333?style=flat&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-333333?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-333333?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+<p align="center">
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/GitHub-333333?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://twitter.com/yourname"><img src="https://img.shields.io/badge/Twitter-333333?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://linkedin.com/in/yourname"><img src="https://img.shields.io/badge/LinkedIn-333333?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
