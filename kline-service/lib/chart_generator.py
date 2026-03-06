@@ -18,42 +18,43 @@ import numpy as np
 THEMES = {
     "light": {
         "bg": "#FFFFFF",
-        "panel_bg": "#FAFBFC",
+        "panel_bg": "#FFFFFF",  # 与背景统一
         "text": "#1A1A1A",
-        "text_light": "#666666",
-        "grid": "#F0F0F0",
-        # 更鲜艳的红绿配色 - 活泼现代
-        "up_body": "#FF6B6B",
-        "down_body": "#51CF66",
-        "up_alpha": 0.75,
-        "down_alpha": 0.75,
-        # 更鲜明的均线颜色
-        "ma5": "#FF4757",
-        "ma10": "#FFA502",
-        "ma20": "#2ED573",
-        "vol_up": "#FF6B6B",
-        "vol_down": "#51CF66",
-        "border": "#E8E8E8",
-        "axis_line": "#E0E0E0"
+        "text_light": "#888888",  # 更淡的灰色，减少视觉干扰
+        "grid": "#F5F5F5",  # 更淡的网格
+        # 红涨绿跌 - 经典配色
+        "up_body": "#E74C3C",
+        "down_body": "#27AE60",
+        "up_alpha": 0.9,
+        "down_alpha": 0.9,
+        # 均线配色 - 与K线形成对比：蓝、橙、紫
+        "ma5": "#3498DB",   # 蓝色 - 与红色K线对比
+        "ma10": "#F39C12",  # 橙色 - 中间色调
+        "ma20": "#9B59B6",  # 紫色 - 与绿色K线对比
+        "vol_up": "#E74C3C",
+        "vol_down": "#27AE60",
+        "border": "#FFFFFF",
+        "axis_line": "#FFFFFF"  # 隐藏轴线
     },
     "dark": {
-        "bg": "#0F1115",
-        "panel_bg": "#1A1D24",
-        "text": "#E8EAED",
-        "text_light": "#9AA0A6",
-        "grid": "#2C2F36",
-        # 暗色模式下更鲜艳的颜色
-        "up_body": "#FF6B9D",
-        "down_body": "#4ADE80",
-        "up_alpha": 0.75,
-        "down_alpha": 0.75,
-        "ma5": "#FF6B9D",
-        "ma10": "#FFD93D",
-        "ma20": "#4ADE80",
-        "vol_up": "#FF6B9D",
-        "vol_down": "#4ADE80",
-        "border": "#2C2F36",
-        "axis_line": "#2C2F36"
+        "bg": "#0D1117",
+        "panel_bg": "#0D1117",  # 与背景统一
+        "text": "#E6EDF3",
+        "text_light": "#6E7681",  # 更淡的灰色
+        "grid": "#21262D",  # 更淡的网格
+        # 暗色模式红绿
+        "up_body": "#F85149",
+        "down_body": "#3FB950",
+        "up_alpha": 0.9,
+        "down_alpha": 0.9,
+        # 均线配色 - 暗色模式下更亮
+        "ma5": "#58A6FF",   # 亮蓝色
+        "ma10": "#F0883E",  # 亮橙色
+        "ma20": "#A371F7",  # 亮紫色
+        "vol_up": "#F85149",
+        "vol_down": "#3FB950",
+        "border": "#0D1117",
+        "axis_line": "#0D1117"  # 隐藏轴线
     }
 }
 
@@ -189,13 +190,12 @@ def generate_kline_chart(
     ax_main.yaxis.set_label_position("right")
     ax_main.tick_params(axis='y', labelsize=10, colors=colors["text_light"])
 
-    ax_main.grid(True, axis='y', color=colors["grid"], linestyle='-', linewidth=0.6, alpha=0.6)
+    ax_main.grid(True, axis='y', color=colors["grid"], linestyle='--', linewidth=0.4, alpha=0.4)
     ax_main.set_axisbelow(True)
 
-    for spine in ['top', 'left']:
+    # 隐藏所有轴线 - 极简设计
+    for spine in ['top', 'left', 'right', 'bottom']:
         ax_main.spines[spine].set_visible(False)
-    ax_main.spines['right'].set_color(colors["axis_line"])
-    ax_main.spines['bottom'].set_color(colors["axis_line"])
 
     # 成交量图
     if ax_vol:
@@ -210,10 +210,10 @@ def generate_kline_chart(
         ax_vol.yaxis.tick_right()
         ax_vol.tick_params(axis='y', labelsize=9, colors=colors["text_light"])
 
-        for spine in ['top', 'left', 'right']:
+        # 隐藏所有轴线 - 极简设计
+        for spine in ['top', 'left', 'right', 'bottom']:
             ax_vol.spines[spine].set_visible(False)
-        ax_vol.spines['bottom'].set_color(colors["axis_line"])
-        ax_vol.grid(True, axis='y', color=colors["grid"], linestyle='-', linewidth=0.5, alpha=0.5)
+        ax_vol.grid(True, axis='y', color=colors["grid"], linestyle='--', linewidth=0.4, alpha=0.4)
 
     # ========== 右上角图例 - 现代横向卡片设计 ==========
     if n >= 5:
@@ -312,12 +312,11 @@ def generate_compact_kline(
 
     ax.yaxis.tick_right()
     ax.tick_params(axis='y', labelsize=9, colors=colors["text_light"])
-    ax.grid(True, axis='y', color=colors["grid"], linewidth=0.6, alpha=0.6)
+    ax.grid(True, axis='y', color=colors["grid"], linestyle='--', linewidth=0.4, alpha=0.4)
 
-    for spine in ['top', 'left']:
+    # 隐藏所有轴线 - 极简设计
+    for spine in ['top', 'left', 'right', 'bottom']:
         ax.spines[spine].set_visible(False)
-    for spine in ['right', 'bottom']:
-        ax.spines[spine].set_color(colors["axis_line"])
 
     plt.tight_layout()
 

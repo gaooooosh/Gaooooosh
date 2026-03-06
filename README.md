@@ -6,17 +6,15 @@
 
 <h2>ABOUT</h2>
 
-<p><strong>gaooooosh</strong></p>
+<h3><strong>**Gaooooosh**</strong></h3>
 
-<p>Ph.D. Student @ Beijing University of Posts and Telecommunications<br>
-北京邮电大学 · 2026级</p>
+<p>Ph.D. Student @ Beijing University of Posts and Telecommunications<br></p>
 
-<p><strong>Research Focus</strong></p>
+<h3><strong>Research Focus</strong></h3>
 
 <p>Research focuses on efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>. Current work studies sequence-length-wise hybridization of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through training-free, parameter-preserving inference-time modification.</p>
 
-<p><strong>Research Interests</strong><br>
-<code>LLM</code> <code>Long-Context</code> <code>Linear Attention</code> <code>Efficient Transformers</code></p>
+<code>Long-Context</code> <code>Linear Attention</code> <code>Efficient Transformers</code>
 
 </td>
 <td valign="top" width="50%">
@@ -27,10 +25,10 @@
 
 <p><strong>CONTRIBUTIONS</strong></p>
 
-<p>
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-5-blue?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-12-green?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/本月平均-5.3-yellow?style=flat-square&logo=github&logoColor=white" alt="本月平均"></a>
+<p align="center">
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-5-3498DB?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-12-27AE60?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/本月平均-5.3-9B59B6?style=flat-square&logo=github&logoColor=white" alt="本月平均"></a>
 </p>
 
 <picture>
@@ -42,12 +40,6 @@
 </td>
 </tr>
 </table>
-
-<br>
-
-<hr>
-
-<br>
 
 <p align="center">
 <a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
