@@ -1,9 +1,5 @@
 <br>
 
-<table width="100%" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
-<tr>
-<td valign="top" style="padding-right: 16px;">
-
 <h2>👋 ABOUT</h2>
 
 <h3><strong style="font-size: 1.2em;">Gaooooosh</strong>📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></h3>
@@ -19,7 +15,7 @@ Beijing University of Posts and Telecommunications</p>
 
 <hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
-<p><strong>🔬 Research Focus</strong></p>
+<h2>><strong>🔬 Research Focus</strong></h2>
 
 <p>Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
 
@@ -31,18 +27,22 @@ Beijing University of Posts and Telecommunications</p>
 <img src="https://img.shields.io/badge/Efficient%20Transformers-9B59B6?style=flat-square" alt="Efficient Transformers">
 </p>
 
-</td>
-<td valign="top" style="padding-left: 16px; border-left: 1px solid #E8E8E8;">
-
-<h2>📊 STATS</h2>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=420" width="100%">
-
 <hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
-<p><strong>📈 CONTRIBUTIONS</strong></p>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" width="50%" align="center">
 
-<p align="center">
+<h3>📊 STATS</h3>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=440" width="100%">
+
+</td>
+<td valign="top" width="50%" align="center">
+
+<h3>📈 CONTRIBUTIONS</h3>
+
+<p>
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-5-3498DB?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-12-27AE60?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/本月平均-5.3-9B59B6?style=flat-square&logo=github&logoColor=white" alt="本月平均"></a>
@@ -57,6 +57,8 @@ Beijing University of Posts and Telecommunications</p>
 </td>
 </tr>
 </table>
+
+<hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
 <h2>🚀 RECENT ACTIVITY</h2>
 
