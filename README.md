@@ -2,14 +2,15 @@
 
 <table width="100%" cellpadding="0" cellspacing="0">
 <tr>
-<td valign="top" width="50%" style="padding-right: 32px;">
+<td valign="top" width="50%" style="padding-right: 16px;">
 
 <h2>👋 ABOUT</h2>
 
-<h3><strong style="font-size: 1.2em;">Gaooooosh</strong>📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></h3><p> </p>
+<h3><strong style="font-size: 1.2em;">Gaooooosh</strong>📧 <a href="mailto:yonggaoxiao@bupt.edu.cn">yonggaoxiao@bupt.edu.cn</a></h3>
 
-<p>🎓 Ph.D. Student <br>
-Beijing University of Posts and Telecommunications<br></p>
+<p>🎓 Ph.D. Student<br>
+Beijing University of Posts and Telecommunications</p>
+
 <p align="center">
 <a href="https://github.com/gaooooosh"><img src="./assets/badges/github.svg" alt="GitHub"></a>
 <a href="https://twitter.com/yourname"><img src="./assets/badges/twitter.svg" alt="Twitter"></a>
@@ -20,9 +21,9 @@ Beijing University of Posts and Telecommunications<br></p>
 
 <p><strong>🔬 Research Focus</strong></p>
 
-<p style="text-align: justify; text-align-last: left;">Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
+<p>Efficient large language model architectures for <em>long-context modeling</em> and <em>stability in ultra-long contexts</em>.</p>
 
-<p style="text-align: justify; text-align-last: left;">Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
+<p>Current work studies <strong>sequence-length-wise hybridization</strong> of linear and sliding-window attention to reduce computational and memory costs, while mitigating context-length-induced degradation through <strong>training-free, parameter-preserving inference-time modification</strong>.</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Long--Context-3498DB?style=flat-square" alt="Long-Context">
@@ -31,7 +32,7 @@ Beijing University of Posts and Telecommunications<br></p>
 </p>
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="50%" style="padding-left: 16px; border-left: 1px solid #E8E8E8;">
 
 <h2>📊 STATS</h2>
 
