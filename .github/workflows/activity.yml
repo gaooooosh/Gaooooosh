@@ -1,0 +1,27 @@
+name: Update Recent Activity
+
+on:
+  schedule:
+    # 每 3 小时运行一次
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: gaooooosh
+          COMMIT_MSG: 'chore: 更新最近活动'
+          MAX_LINES: 10

@@ -57,4 +57,9 @@ Beijing University of Posts and Telecommunications<br></p>
 </tr>
 </table>
 
+<h2>🚀 RECENT ACTIVITY</h2>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 <br>
