@@ -1,8 +1,8 @@
 <br>
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table width="100%" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
 <tr>
-<td valign="top" width="50%" style="padding-right: 16px;">
+<td valign="top" style="padding-right: 16px;">
 
 <h2>👋 ABOUT</h2>
 
@@ -32,11 +32,11 @@ Beijing University of Posts and Telecommunications</p>
 </p>
 
 </td>
-<td valign="top" width="50%" style="padding-left: 16px; border-left: 1px solid #E8E8E8;">
+<td valign="top" style="padding-left: 16px; border-left: 1px solid #E8E8E8;">
 
 <h2>📊 STATS</h2>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=380" width="100%">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gaooooosh&hide_border=true&background=FFFFFF&stroke=E0E0E0&ring=333333&fire=FF6B35&currStreakLabel=333333&sideNums=333333&sideLabels=666666&dates=666666&card_width=420" width="100%">
 
 <hr style="border: none; border-top: 1px solid #E8E8E8; margin: 16px 0;">
 
