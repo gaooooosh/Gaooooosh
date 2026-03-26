@@ -44,7 +44,7 @@ Beijing University of Posts and Telecommunications</p>
 
 <p>
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/今日-0-3498DB?style=flat-square&logo=github&logoColor=white" alt="今日提交"></a>
-<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-0-27AE60?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
+<a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/昨日-2-27AE60?style=flat-square&logo=github&logoColor=white" alt="昨日提交"></a>
 <a href="https://github.com/gaooooosh"><img src="https://img.shields.io/badge/本月平均-2.5-9B59B6?style=flat-square&logo=github&logoColor=white" alt="本月平均"></a>
 </p>
 
