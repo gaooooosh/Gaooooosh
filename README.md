@@ -63,7 +63,7 @@ Beijing University of Posts and Telecommunications</p>
 <h2>🚀 RECENT ACTIVITY</h2>
 
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/gaooooosh/LiMem/pull/1) in [gaooooosh/LiMem](https://github.com/gaooooosh/LiMem)
+1. 🎉 Merged PR [#1](https://github.com/gaooooosh/limem-agent-plugin/pull/1) in [gaooooosh/limem-agent-plugin](https://github.com/gaooooosh/limem-agent-plugin)
 <!--END_SECTION:activity-->
 
 <br>
