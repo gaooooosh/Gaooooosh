@@ -63,7 +63,7 @@ Beijing University of Posts and Telecommunications</p>
 <h2>🚀 RECENT ACTIVITY</h2>
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [G-Figure v0.1.3](https://github.com/gaooooosh/G-Figure/releases/tag/v0.1.3) in [gaooooosh/G-Figure](https://github.com/gaooooosh/G-Figure)
+1. 🎉 Merged PR [#10](https://github.com/gaooooosh/LiMem/pull/10) in [gaooooosh/LiMem](https://github.com/gaooooosh/LiMem)
 <!--END_SECTION:activity-->
 
 <br>
